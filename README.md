@@ -11,8 +11,8 @@ Simple email wrapper in C# for SMTP and Mailgun
 ```
 using EmailWrapper;
 
-EmailModule em = new EmailModule("mailgunapikey", "mydomain.com");               // Mailgun
-EmailModule em = new EmailModule("smtp.domain.com", 25, "user", "pass", false);  // SMTP
+EmailClient em = new EmailClient("mailgunapikey", "mydomain.com");                // Mailgun
+EmailClient em = new EmailClient("smtp.domain.com", 25, "user", "pass", false);   // SMTP
 
 Email email = new Email();
 email.IsHtml = false;
