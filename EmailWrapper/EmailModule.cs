@@ -12,11 +12,11 @@ using RestSharp.Authenticators;
 
 namespace EmailWrapper
 {
-    class EmailModule
+    public class EmailClient
     {
         #region Constructor
 
-        public EmailModule(string mailgunApiKey, string mailgunDomain)
+        public EmailClient(string mailgunApiKey, string mailgunDomain)
         {
             if (String.IsNullOrEmpty(mailgunApiKey)) throw new ArgumentNullException(nameof(mailgunApiKey));
             if (String.IsNullOrEmpty(mailgunDomain)) throw new ArgumentNullException(nameof(mailgunDomain));
@@ -26,7 +26,7 @@ namespace EmailWrapper
             Provider = "mailgun";
         }
 
-        public EmailModule(
+        public EmailClient(
             string smtpServer,
             int smtpPort,
             string smtpUsername,

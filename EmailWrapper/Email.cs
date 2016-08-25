@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmailWrapper
 {
-    class Email
+    public class Email
     {
         public bool IsHtml { get; set; }
         public string FromAddress { get; set; }
