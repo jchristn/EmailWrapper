@@ -1,0 +1,7 @@
+d:\code\misc\EmailModule\EmailModule\bin\Debug\EmailModule.dll
+d:\code\misc\EmailModule\EmailModule\bin\Debug\EmailModule.pdb
+d:\code\misc\EmailModule\EmailModule\bin\Debug\RestSharp.dll
+d:\code\misc\EmailModule\EmailModule\bin\Debug\RestSharp.xml
+d:\code\misc\EmailModule\EmailModule\obj\Debug\EmailModule.csprojResolveAssemblyReference.cache
+d:\code\misc\EmailModule\EmailModule\obj\Debug\EmailModule.dll
+d:\code\misc\EmailModule\EmailModule\obj\Debug\EmailModule.pdb

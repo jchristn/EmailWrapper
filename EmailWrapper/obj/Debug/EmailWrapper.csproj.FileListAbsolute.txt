@@ -1,0 +1,6 @@
+D:\code\misc\EmailWrapper\EmailWrapper\bin\Debug\EmailModule.dll
+D:\code\misc\EmailWrapper\EmailWrapper\bin\Debug\EmailModule.pdb
+D:\code\misc\EmailWrapper\EmailWrapper\bin\Debug\RestSharp.dll
+D:\code\misc\EmailWrapper\EmailWrapper\bin\Debug\RestSharp.xml
+D:\code\misc\EmailWrapper\EmailWrapper\obj\Debug\EmailModule.dll
+D:\code\misc\EmailWrapper\EmailWrapper\obj\Debug\EmailModule.pdb
