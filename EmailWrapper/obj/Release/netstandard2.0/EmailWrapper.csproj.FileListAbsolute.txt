@@ -1,0 +1,8 @@
+C:\code\misc\EmailWrapper\EmailWrapper\bin\Release\netstandard2.0\EmailModule.deps.json
+C:\code\misc\EmailWrapper\EmailWrapper\bin\Release\netstandard2.0\EmailModule.dll
+C:\code\misc\EmailWrapper\EmailWrapper\bin\Release\netstandard2.0\EmailModule.pdb
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\netstandard2.0\EmailWrapper.csproj.CoreCompileInputs.cache
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\netstandard2.0\EmailWrapper.AssemblyInfoInputs.cache
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\netstandard2.0\EmailWrapper.AssemblyInfo.cs
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\netstandard2.0\EmailModule.dll
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\netstandard2.0\EmailModule.pdb

@@ -1,7 +1,0 @@
-D:\code\misc\EmailWrapper\EmailWrapper\bin\Release\EmailModule.dll
-D:\code\misc\EmailWrapper\EmailWrapper\bin\Release\EmailModule.pdb
-D:\code\misc\EmailWrapper\EmailWrapper\bin\Release\RestSharp.dll
-D:\code\misc\EmailWrapper\EmailWrapper\bin\Release\RestSharp.xml
-D:\code\misc\EmailWrapper\EmailWrapper\obj\Release\EmailWrapper.csprojResolveAssemblyReference.cache
-D:\code\misc\EmailWrapper\EmailWrapper\obj\Release\EmailModule.dll
-D:\code\misc\EmailWrapper\EmailWrapper\obj\Release\EmailModule.pdb

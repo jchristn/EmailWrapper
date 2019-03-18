@@ -16,6 +16,11 @@ namespace EmailWrapper
     {
         #region Constructor
 
+        /// <summary>
+        /// Instantiates the object to use Mailgun.
+        /// </summary>
+        /// <param name="mailgunApiKey">Mailgun API key.</param>
+        /// <param name="mailgunDomain">Mailgun domain.</param>
         public EmailClient(string mailgunApiKey, string mailgunDomain)
         {
             if (String.IsNullOrEmpty(mailgunApiKey)) throw new ArgumentNullException(nameof(mailgunApiKey));
@@ -23,9 +28,17 @@ namespace EmailWrapper
 
             MailgunApiKey = mailgunApiKey;
             MailgunDomain = mailgunDomain;
-            Provider = "mailgun";
+            Provider = EmailProvider.Mailgun;
         }
 
+        /// <summary>
+        /// Instantiates the object to use an SMTP server.
+        /// </summary>
+        /// <param name="smtpServer">SMTP server hostname or IP address.</param>
+        /// <param name="smtpPort">SMTP server port number.</param>
+        /// <param name="smtpUsername">Username for the SMTP server.</param>
+        /// <param name="smtpPassword">Password for the SMTP server.</param>
+        /// <param name="smtpSsl">Enable or disable SSL.</param>
         public EmailClient(
             string smtpServer,
             int smtpPort,
@@ -43,14 +56,15 @@ namespace EmailWrapper
             SmtpPassword = smtpPassword;
             SmtpPort = smtpPort;
             SmtpSsl = smtpSsl;
-            Provider = "smtp";
+            Provider = EmailProvider.SMTP;
         }
 
         #endregion
         
         #region Private-Members
         
-        private string Provider { get; set; }
+        private EmailProvider Provider { get; set; }
+
         private string SmtpServer { get; set; }
         private int SmtpPort { get; set; }
         private string SmtpUsername { get; set; }
@@ -64,6 +78,11 @@ namespace EmailWrapper
 
         #region Public-Methods
 
+        /// <summary>
+        /// Send an email object.
+        /// </summary>
+        /// <param name="email">The populated email object.</param>
+        /// <returns>True if successful.</returns>
         public bool Send(Email email)
         {
             if (email == null) throw new ArgumentNullException(nameof(email));
@@ -71,10 +90,10 @@ namespace EmailWrapper
 
             switch (Provider)
             {
-                case "smtp":
+                case EmailProvider.SMTP:
                     return SendSmtp(email);
 
-                case "mailgun":
+                case EmailProvider.Mailgun:
                     return SendMailgun(email);
 
                 default:

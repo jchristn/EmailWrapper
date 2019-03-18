@@ -1,0 +1,9 @@
+C:\code\misc\EmailWrapper\EmailWrapper\bin\Release\net452\EmailModule.dll
+C:\code\misc\EmailWrapper\EmailWrapper\bin\Release\net452\EmailModule.pdb
+C:\code\misc\EmailWrapper\EmailWrapper\bin\Release\net452\RestSharp.dll
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\net452\EmailWrapper.csproj.CoreCompileInputs.cache
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\net452\EmailWrapper.AssemblyInfoInputs.cache
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\net452\EmailWrapper.AssemblyInfo.cs
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\net452\EmailWrapper.csproj.CopyComplete
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\net452\EmailModule.dll
+C:\code\misc\EmailWrapper\EmailWrapper\obj\Release\net452\EmailModule.pdb

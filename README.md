@@ -5,7 +5,7 @@
 [nuget]:     https://www.nuget.org/packages/EmailWrapper/
 [nuget-img]: https://badge.fury.io/nu/Object.svg
 
-Simple email wrapper in C# for SMTP and Mailgun
+Simple email wrapper in C# for SMTP and Mailgun targeted to both .NET Core 2.0 and .NET Framework 4.5.2.
 
 ## Simple Example
 ```
